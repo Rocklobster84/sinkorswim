@@ -1,0 +1,130 @@
+body {
+  background:url('../images/background.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+}
+.city h3 {
+  color: #74b9af;
+  font-family: 'Sedgwick Ave', cursive;
+  font-weight: 600;
+}
+.logo-img{
+  width: 40%;
+  margin-bottom: 10px;
+}
+.social img{
+  display: inline-block;
+  margin-left: 10px;
+}
+.instagram {
+  width: 40px;
+  margin: 15px 80px 5px 2px;
+}
+.facebook {
+  width: 20px;
+  margin: 15px 5px 5px 2px;
+}
+
+.instagram-foot {
+  width: 20px;
+  margin: 10px 20px 5px 2px;
+}
+.facebook-foot {
+  width: 10px;
+  margin: 10px 5px 5px 2px;
+}
+
+.social-bottom img{
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-text {
+  margin-top: 10px;
+  margin-right: 0;
+}
+.body-head {
+  color: #f4f4f4;
+  font-family: 'Sedgwick Ave', cursive;
+
+}
+.page-body {
+  color: #f4f4f4;
+  text-shadow: 1px 1px #000000;
+}
+.page-body h2 {
+  padding-bottom: 20px;
+}
+.page-body p {
+  margin: 20px 20px 0px 20px;
+}
+.page-body p a{
+  color: #f69321;
+  text-decoration: none;
+}
+.page-body p a:hover {
+  color:#74b9af;
+  text-decoration: none;
+}
+.page-body p a:visited {
+  color:#f69321;
+  text-decoration: none;
+}
+.p-1 {
+  padding-top: 10px;
+}
+.p-4 {
+  padding-bottom: 40px;
+}
+.knapp {
+  padding: 10px 10px 0px 10px;
+}
+.marketing {
+  color: #f4f4f4;
+}
+.red {
+  color: #a94442;
+}
+.home-button a h2{
+  color: #f4f4f4;
+}
+.home-button a h2:hover{
+  color: #f69321;
+  text-decoration:none;
+}
+.home-button a:hover{
+  text-decoration:none;
+}
+@media (max-width: 992px) {
+  .big_only{ display: none;}
+  .home-button{ margin: 10px 0 10px 0;}
+  .social { display: none;}
+}
+@media (min-width: 992px) {
+  .social-bottom {display:none;}
+}
+@media (max-width: 992px) {
+    .custom h2 { margin-bottom: 80px;}
+  }
+  @media (min-width: 768px) {
+    .profile-img {
+      margin-top: -20px;
+    }
+  }
+@media (max-width: 768px) {
+  .profile-img {
+    margin-top: -20px;
+  }
+}
+
+.profile-img {
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.img-advert {
+  padding-bottom: 30px;
+}
